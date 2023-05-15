@@ -1,0 +1,2067 @@
+@charset "utf-8";
+/* CSS Document */
+ /* código do kesse */
+
+/* Tiny Devices (LANDSCAPE Phones) */ 
+@media only screen and (max-width : 320px), (min-width: 320px)
+{
+	/*INICIO PRINCIPAL*/
+#principal
+{
+	width: 320px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}/*FINAL PRINCIPAL*/
+
+#topobody
+{
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.6);
+}
+
+
+/*INICIO TOPO SUPORTE*/
+#toposuperior
+{
+    width: 320px;
+	height: 50px;
+	color: white;
+	font-size: 9px;
+	display: table;
+	margin: 0 auto;
+}
+
+#slogan
+{
+	width: 160px;
+	height: 30px;
+	display: table-cell;
+	vertical-align: bottom;
+	padding: 5px 10px;
+}
+
+#suporte
+{
+	width: 160px;
+	height: 30px;
+	display: table-cell;
+	text-align: right;
+	vertical-align: bottom;
+	padding: 5px 10px;
+}/*FINAL SUPORTE*/
+
+
+/*INICIO LOGO, MENU*/
+#topoinferior
+{
+	width: 320px;
+	height: 50px;
+	display: table;
+}
+
+#logo
+{
+	width: 64px;
+	height: 50px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 20px;
+    font-family: 'Bungee', cursive;
+	font-weight: bold;
+	color: lightgray;
+}
+
+#logo span
+{
+	color:#19909D;
+}
+
+#logo span:hover
+{
+	color: lightgray;
+}
+
+a.linklogo:link, a.linklogo:visited
+{ 
+	text-decoration: none;
+	color: lightgray;
+}
+
+a.linklogo:hover, a.linklogo:active
+{
+	color: #19909D;
+}
+
+#menu
+{
+	width: 256px;
+	height: 50px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#itensmenu
+{
+	margin: 0;
+	padding: 0;
+	float: right;
+
+}
+
+#itensmenu li
+{
+	list-style: none;
+	font-size: 10px;
+	display: table-cell;
+}
+
+a.linkmenu:link, a.linkmenu:visited
+{
+	text-decoration: none;
+	color: white;
+	margin-left: 5px;
+
+}
+
+a.linkmenu:hover, a.linkmenu:active
+{
+	color: #19909D;
+	font-weight: bold;
+
+}/*FINAL LOGO, MENU*/
+
+
+/*COMEÇO CONTEUDO*/
+#conteudo
+{
+	width: 320px;
+	min-height: auto;
+	display: table;
+}
+
+#banners
+{
+	width: 320px;
+	min-height: auto;
+	display: table-cell;
+	/*background: lightgray;*/
+}/*FINAL CONTEUDO*/
+
+#banners img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*CONTEUDO SOBRE*/
+#contentabout
+{
+	width: 320px;
+	min-height: 100px;
+}
+
+#about
+{
+	width: 220px;
+	min-height: 160px;
+	background: lightgray;
+	opacity: 0.85;
+	color: black;
+	font-size: 16px;
+	padding: 20px 50px;
+	margin-bottom: 20px;
+}
+
+#about p
+{
+	text-align: justify;
+}
+
+#about h1
+{
+	text-align: center;
+	color: #19909D;
+	font-weight: bold;
+}/*FINAL SOBRE*/
+
+
+/*INICIO SERVIÇOS*/
+#servicos
+{
+	width: 320px;
+	min-height: 100px;
+	display: table;
+	margin: none;
+}
+
+#servicos h5
+{
+	font-size: 20px;
+}
+
+a.titleserv:link, a.titleserv:visited
+{
+	text-decoration: none;
+	color: black;
+
+}
+
+.itensservicos:hover h5
+{
+	color: #19909D;
+}
+
+
+.itensservicos:hover
+{
+	background: black;
+	border: white 1px solid;
+	opacity: 0.85;
+	color: white;
+}
+
+.itensservicos
+{
+	width: 299px;
+	height: 90px;
+	padding: 0 10px 10px 10px;
+	background: lightgray;
+	display: table;
+	vertical-align: text-top;
+	border: black 1px solid;
+	opacity: 0.85;
+	font-size: 16px;
+	margin-bottom: 10px;
+}/*FINAL SERVIÇOS*/
+
+
+/*INICIO CONTEUDO SERVIÇOS*/
+#servicescontent
+{
+	width: 320px;
+	height: auto;
+	margin-top: 5px;
+}
+
+#servicescontent h1
+{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+#servicescontent h2
+{
+	color: #19909D;
+	font-weight: bold;
+	text-align: center;
+}
+
+.services
+{
+	width: 220px;
+	min-height: 160px;
+	padding: 20px 50px;
+	color: black;
+	font-size: 16px;
+	background: lightgray;
+	opacity: 0.85;
+	margin-bottom: 20px;
+}
+
+.services p
+{
+	text-align: justify;
+}/*FINAL CONTEUDO SERVIÇOS*/
+
+
+/*INICIO RODAPE SUPERIOR*/
+
+#rodapeumbody
+{
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.6);
+	font-size: 10px;
+}
+#rodapesuperior
+{
+	width: 320px;
+	min-height: 140px;
+	color: white;
+	display: table;
+	margin: 0 auto;
+}
+
+#localizacao
+{
+	width: 106px;
+	min-height: 140px;
+	padding-bottom: 10px;
+	display: table-cell;
+}
+
+.mapa
+{
+	width: 90px;
+	height: 90px;
+}
+
+#contato
+{
+	width: 106px;
+	min-height: 140px;
+	padding-bottom: 10px;
+	display: table-cell;
+}
+
+#social
+{
+	width: 106px;
+	min-height: 140px;
+	padding-bottom: 10px;
+	display: table-cell;
+}
+
+#redessociais
+{
+	margin: 0;
+	padding: 0;
+}
+
+#redessociais li
+{
+	list-style: none;
+
+}/*FINAL RODAPE SUPERIOR*/
+
+
+/*INICIO RODAPE INFERIOR COPYRIGHT*/
+#rodapeinferior
+{
+	width: 100%;
+	min-height: 20px;
+	display: table;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 12px;
+}
+
+#direitos
+{
+	width: 320px;
+	min-height: 20px;
+	display: table-cell;
+	text-align: center;
+	margin: 0 auto;
+}/*FINAL RODAPE INFERIOR COPYRIGHT*/
+
+
+/*Área CONTATO*/
+#areacontato
+{
+	width: 98%;
+	height: auto;
+	padding: 1%;
+	color: white; 
+}
+
+#mapa
+{
+	width: 45%;
+	min-height: 200px;
+	float: left;
+}
+
+.mapadois
+{
+	width: 100%;
+	height: 150px;
+}
+
+#formulario
+{
+	width: 45%;
+	min-height: 400px;
+	float: right;
+}
+
+#dadosmensagem
+{
+	display: block;
+	margin: 0;
+	border-radius: 5px;	
+}
+
+#dadospessoais
+{
+	margin: 0;
+ 
+}
+
+#dadosmensagem label
+{
+	float: left;
+	width: 50px;
+	height: 20px;			
+}
+
+.campo
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 200px;
+	height: 20px;
+    background-color:rgba(0,0,0,0.5);
+	border-radius: 5px;
+	border: rgba(0,0,0,0.00);
+	color: white;
+	margin-top: 5px;	
+}
+
+.mensagem
+{
+	width: 200px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 5px;
+	border: rgba(0,0,0,0.00);
+	color: white;
+	margin-top: 5px;
+	resize: none;	
+}
+
+#message
+{
+	width: 320px;
+	height: auto;
+	position: relative;
+}
+
+#messagesent
+{
+	width: 280px;
+	min-height: 260px;
+	padding: 20px;
+	background: lightgray;
+	opacity: 0.80;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#imagesent
+{
+	width: 280px;
+	height: 260px;
+	z-index: 5;
+	position: absolute;
+	left: 31%;
+	top: 15%;
+
+}
+.envelope
+{
+	max-width: 200px;
+	height: auto;
+
+}
+
+#messagesent p
+{
+	color: #19909D;
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#enviar
+{
+	background: lightgray;
+	display: block;
+	width: 50px;
+	height: 25px;
+	color: black;
+	font-weight: bold;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+
+}
+
+#enviar:hover
+{
+	background: rgba(0,0,0,0.5);
+	color: lightgray;
+	font-weight: bold;
+}/*FINAL AREA CONTATO*/
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Small Devices (LANDSCAPE Phones) */ 
+@media only screen and (min-width : 576px) 
+{
+
+	/*INICIO PRINCIPAL*/
+#principal
+{
+	width: 576px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}/*FINAL PRINCIPAL*/
+
+#topobody
+{
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.6);
+}
+
+
+/*INICIO TOPO SUPORTE*/
+#toposuperior
+{
+    width: 576px;
+	height: 50px;
+	color: white;
+	font-size: 16px;
+	display: table;
+	margin: 0 auto;
+}
+
+#slogan
+{
+	width: 278px;
+	height: 30px;
+	display: table-cell;
+	vertical-align: bottom;
+	padding: 5px 10px;
+}
+
+#suporte
+{
+	width: 278px;
+	height: 30px;
+	display: table-cell;
+	text-align: right;
+	vertical-align: bottom;
+	padding: 5px 10px;
+}/*FINAL SUPORTE*/
+
+
+/*INICIO LOGO, MENU*/
+#topoinferior
+{
+	width: 576px;
+	height: 100px;
+	display: table;
+}
+
+#logo
+{
+	width: 116px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 30px;
+    font-family: 'Bungee', cursive;
+	font-weight: bold;
+	color: lightgray;
+}
+
+#logo span
+{
+	color:#19909D;
+}
+
+#logo span:hover
+{
+	color: lightgray;
+}
+
+a.linklogo:link, a.linklogo:visited
+{ 
+	text-decoration: none;
+	color: lightgray;
+}
+
+a.linklogo:hover, a.linklogo:active
+{
+	color: #19909D;
+}
+
+#menu
+{
+	width: 460px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#itensmenu
+{
+	margin: 0;
+	padding: 0;
+	float: right;
+
+}
+
+#itensmenu li
+{
+	list-style: none;
+	font-size: 20px;
+	display: table-cell;
+}
+
+a.linkmenu:link, a.linkmenu:visited
+{
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;
+
+}
+
+a.linkmenu:hover, a.linkmenu:active
+{
+	color: #19909D;
+	font-weight: bold;
+
+}/*FINAL LOGO, MENU*/
+
+
+/*COMEÇO CONTEUDO*/
+#conteudo
+{
+	width: 576px;
+	min-height: auto;
+	display: table;
+}
+
+#banners
+{
+	width: 576px;
+	min-height: auto;
+	display: table-cell;
+	/*background: lightgray;*/
+}/*FINAL CONTEUDO*/
+
+#banners img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*CONTEUDO SOBRE*/
+#contentabout
+{
+	width: 576px;
+	min-height: 300px;
+}
+
+#about
+{
+	width: 476px;
+	min-height: 260px;
+	background: lightgray;
+	opacity: 0.85;
+	color: black;
+	font-size: 16px;
+	padding: 20px 50px;
+	margin-bottom: 20px;
+}
+
+#about p
+{
+	text-align: justify;
+}
+
+#about h1
+{
+	text-align: center;
+	color: #19909D;
+	font-weight: bold;
+}/*FINAL SOBRE*/
+
+
+/*INICIO SERVIÇOS*/
+#servicos
+{
+	width: 576px;
+	min-height: 200px;
+	display: table;
+	margin: none;
+}
+
+#servicos h5
+{
+	font-size: 20px;
+}
+
+a.titleserv:link, a.titleserv:visited
+{
+	text-decoration: none;
+	color: black;
+
+}
+
+.itensservicos:hover h5
+{
+	color: #19909D;
+}
+
+
+.itensservicos:hover
+{
+	background: black;
+	border: white 1px solid;
+	opacity: 0.85;
+	color: white;
+}
+
+.itensservicos
+{
+	width: 556px;
+	height: 190px;
+	padding: 0 10px 10px 10px;
+	background: lightgray;
+	display: table;
+	vertical-align: text-top;
+	border: black 1px solid;
+	opacity: 0.85;
+	font-size: 18px;
+	margin-bottom: 10px;
+}/*FINAL SERVIÇOS*/
+
+
+/*INICIO CONTEUDO SERVIÇOS*/
+#servicescontent
+{
+	width: 576px;
+	height: auto;
+	margin-top: 5px;
+}
+
+#servicescontent h1
+{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 32px;
+
+}
+
+#servicescontent h2
+{
+	color: #19909D;
+	font-weight: bold;
+	text-align: center;
+}
+
+.services
+{
+	width: 476px;
+	min-height: 260px;
+	padding: 20px 50px;
+	color: black;
+	font-size: 16px;
+	background: lightgray;
+	opacity: 0.85;
+	margin-bottom: 20px;
+}
+
+.services p
+{
+	text-align: justify;
+}/*FINAL CONTEUDO SERVIÇOS*/
+
+
+/*INICIO RODAPE SUPERIOR*/
+
+#rodapeumbody
+{
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.6);
+	font-size: 16px;
+}
+#rodapesuperior
+{
+	width: 576px;
+	min-height: 240px;
+	color: white;
+	display: table;
+	margin: 0 auto;
+}
+
+#localizacao
+{
+	width: 192px;
+	min-height: 240px;
+	padding-bottom: 10px;
+	display: table-cell;
+}
+
+.mapa
+{
+	width: 125px;
+	height: auto;
+}
+
+#contato
+{
+	width: 192px;
+	min-height: 240px;
+	padding-bottom: 10px;
+	display: table-cell;
+}
+
+#social
+{
+	width: 192px;
+	min-height: 240px;
+	padding-bottom: 10px;
+	display: table-cell;
+}
+
+#redessociais
+{
+	margin: 0;
+	padding: 0;
+}
+
+#redessociais li
+{
+	list-style: none;
+
+}/*FINAL RODAPE SUPERIOR*/
+
+
+/*INICIO RODAPE INFERIOR COPYRIGHT*/
+#rodapeinferior
+{
+	width: 100%;
+	min-height: 20px;
+	display: table;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 16px;
+}
+
+#direitos
+{
+	width: 576px;
+	min-height: 20px;
+	display: table-cell;
+	text-align: center;
+	margin: 0 auto;
+}/*FINAL RODAPE INFERIOR COPYRIGHT*/
+
+
+/*Área CONTATO*/
+#areacontato
+{
+	width: 98%;
+	height: auto;
+	padding: 1%;
+	color: white; 
+}
+
+#mapa
+{
+	width: 45%;
+	min-height: 400px;
+	float: left;
+}
+
+.mapadois
+{
+	width: 100%;
+	height: 300px;
+}
+
+#formulario
+{
+	width: 45%;
+	min-height: 400px;
+	float: right;
+}
+
+#dadosmensagem
+{
+	display: block;
+	margin: 0;
+	border-radius: 5px;	
+}
+
+#dadospessoais
+{
+	margin: 0;
+ 
+}
+
+#dadosmensagem label
+{
+	float: left;
+	width: 100px;
+	height: 20px;			
+}
+
+.campo
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 300px;
+	height: 20px;
+    background-color:rgba(0,0,0,0.5);
+	border-radius: 5px;
+	border: rgba(0,0,0,0.00);
+	color: white;
+	margin-top: 5px;	
+}
+
+.mensagem
+{
+	width: 300px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 5px;
+	border: rgba(0,0,0,0.00);
+	color: white;
+	margin-top: 5px;
+	resize: none;	
+}
+
+#message
+{
+	width: 576px;
+	height: auto;
+	position: relative;
+}
+
+#messagesent
+{
+	width: 536px;
+	min-height: 460px;
+	padding: 20px;
+	background: lightgray;
+	opacity: 0.80;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#imagesent
+{
+	width: 536px;
+	height: 460px;
+	z-index: 5;
+	position: absolute;
+	left: 31%;
+	top: 15%;
+
+}
+.envelope
+{
+	max-width: 300px;
+	height: auto;
+
+}
+
+#messagesent p
+{
+	color: #19909D;
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#enviar
+{
+	background: lightgray;
+	display: block;
+	width: 100px;
+	height: 50px;
+	color: black;
+	font-weight: bold;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+
+}
+
+#enviar:hover
+{
+	background: rgba(0,0,0,0.5);
+	color: lightgray;
+	font-weight: bold;
+}/*FINAL AREA CONTATO*/
+
+}/*FINAL RESPONSIVO 576PX*/
+
+
+/* MEDIUM Devices (Tablets) */
+@media only screen and (min-width : 768px) 
+{
+
+	/*INICIO PRINCIPAL*/
+#principal
+{
+	width: 768px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}/*FINAL PRINCIPAL*/
+
+#topobody
+{
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.6);
+}
+
+
+/*INICIO TOPO SUPORTE*/
+#toposuperior
+{
+    width: 768px;
+	height: 50px;
+	color: white;
+	font-size: 16px;
+	display: table;
+	margin: 0 auto;
+}
+
+#slogan
+{
+	width: 374px;
+	height: 30px;
+	display: table-cell;
+	vertical-align: bottom;
+	padding: 5px 10px;
+}
+
+#suporte
+{
+	width: 374px;
+	height: 30px;
+	display: table-cell;
+	text-align: right;
+	vertical-align: bottom;
+	padding: 5px 10px;
+}/*FINAL SUPORTE*/
+
+
+/*INICIO LOGO, MENU*/
+#topoinferior
+{
+	width: 768px;
+	height: 100px;
+	display: table;
+}
+
+#logo
+{
+	width: 154px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 30px;
+    font-family: 'Bungee', cursive;
+	font-weight: bold;
+	color: lightgray;
+}
+
+#logo span
+{
+	color:#19909D;
+}
+
+#logo span:hover
+{
+	color: lightgray;
+}
+
+a.linklogo:link, a.linklogo:visited
+{ 
+	text-decoration: none;
+	color: lightgray;
+}
+
+a.linklogo:hover, a.linklogo:active
+{
+	color: #19909D;
+}
+
+#menu
+{
+	width: 613px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#itensmenu
+{
+	margin: 0;
+	padding: 0;
+	float: right;
+
+}
+
+#itensmenu li
+{
+	list-style: none;
+	font-size: 20px;
+	display: table-cell;
+}
+
+a.linkmenu:link, a.linkmenu:visited
+{
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+
+}
+
+a.linkmenu:hover, a.linkmenu:active
+{
+	color: #19909D;
+	font-weight: bold;
+
+}/*FINAL LOGO, MENU*/
+
+
+/*COMEÇO CONTEUDO*/
+#conteudo
+{
+	width: 768px;
+	min-height: auto;
+	display: table;
+}
+
+#banners
+{
+	width: 768px;
+	min-height: auto;
+	display: table-cell;
+	/*background: lightgray;*/
+}/*FINAL CONTEUDO*/
+
+#banners img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*CONTEUDO SOBRE*/
+#contentabout
+{
+	width: 768px;
+	min-height: 300px;
+}
+
+#about
+{
+	width: 678px;
+	min-height: 260px;
+	background: lightgray;
+	opacity: 0.85;
+	color: black;
+	font-size: 16px;
+	padding: 20px 50px;
+	margin-bottom: 20px;
+}
+
+#about p
+{
+	text-align: justify;
+}
+
+#about h1
+{
+	text-align: center;
+	color: #19909D;
+	font-weight: bold;
+}/*FINAL SOBRE*/
+
+
+/*INICIO SERVIÇOS*/
+#servicos
+{
+	width: 768px;
+	min-height: 200px;
+	display: table;
+	margin: none;
+}
+
+#servicos h5
+{
+	font-size: 20px;
+}
+
+a.titleserv:link, a.titleserv:visited
+{
+	text-decoration: none;
+	color: black;
+
+}
+
+.itensservicos:hover h5
+{
+	color: #19909D;
+}
+
+
+.itensservicos:hover
+{
+	background: black;
+	border: white 1px solid;
+	opacity: 0.85;
+	color: white;
+}
+
+.itensservicos
+{
+	width: 748px;
+	height: 190px;
+	padding: 0 10px 10px 10px;
+	background: lightgray;
+	display: table;
+	vertical-align: text-top;
+	border: black 1px solid;
+	opacity: 0.85;
+	font-size: 18px;
+	margin-bottom: 10px;
+}/*FINAL SERVIÇOS*/
+
+
+/*INICIO CONTEUDO SERVIÇOS*/
+#servicescontent
+{
+	width: 768px;
+	height: auto;
+	margin-top: 5px;
+}
+
+#servicescontent h1
+{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 32px;
+
+}
+
+#servicescontent h2
+{
+	color: #19909D;
+	font-weight: bold;
+	text-align: center;
+}
+
+.services
+{
+	width: 678px;
+	min-height: 260px;
+	padding: 20px 50px;
+	color: black;
+	font-size: 16px;
+	background: lightgray;
+	opacity: 0.85;
+	margin-bottom: 20px;
+}
+
+.services p
+{
+	text-align: justify;
+}/*FINAL CONTEUDO SERVIÇOS*/
+
+
+/*INICIO RODAPE SUPERIOR*/
+
+#rodapeumbody
+{
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.6);
+	font-size: 16px;
+}
+#rodapesuperior
+{
+	width: 768px;
+	min-height: 240px;
+	color: white;
+	display: table;
+	margin: 0 auto;
+}
+
+#localizacao
+{
+	width: 256px;
+	min-height: 240px;
+	padding-bottom: 10px;
+	display: table-cell;
+}
+
+.mapa
+{
+	width: 200px;
+	height: auto;
+}
+
+#contato
+{
+	width: 256px;
+	min-height: 240px;
+	padding-bottom: 10px;
+	display: table-cell;
+}
+
+#social
+{
+	width: 256px;
+	min-height: 240px;
+	padding-bottom: 10px;
+	display: table-cell;
+}
+
+#redessociais
+{
+	margin: 0;
+	padding: 0;
+}
+
+#redessociais li
+{
+	list-style: none;
+
+}/*FINAL RODAPE SUPERIOR*/
+
+
+/*INICIO RODAPE INFERIOR COPYRIGHT*/
+#rodapeinferior
+{
+	width: 100%;
+	min-height: 20px;
+	display: table;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 16px;
+}
+
+#direitos
+{
+	width: 768px;
+	min-height: 20px;
+	display: table-cell;
+	text-align: center;
+	margin: 0 auto;
+}/*FINAL RODAPE INFERIOR COPYRIGHT*/
+
+
+/*Área CONTATO*/
+#areacontato
+{
+	width: 98%;
+	height: auto;
+	padding: 1%;
+	color: white; 
+}
+
+#mapa
+{
+	width: 45%;
+	min-height: 400px;
+	float: left;
+}
+
+.mapadois
+{
+	width: 100%;
+	height: 300px;
+}
+
+#formulario
+{
+	width: 45%;
+	min-height: 400px;
+	float: right;
+}
+
+#dadosmensagem
+{
+	display: block;
+	margin: 0;
+	border-radius: 5px;	
+}
+
+#dadospessoais
+{
+	margin: 0;
+ 
+}
+
+#dadosmensagem label
+{
+	float: left;
+	width: 100px;
+	height: 20px;			
+}
+
+.campo
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 300px;
+	height: 20px;
+    background-color:rgba(0,0,0,0.5);
+	border-radius: 5px;
+	border: rgba(0,0,0,0.00);
+	color: white;
+	margin-top: 5px;	
+}
+
+.mensagem
+{
+	width: 300px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 5px;
+	border: rgba(0,0,0,0.00);
+	color: white;
+	margin-top: 5px;
+	resize: none;	
+}
+
+#message
+{
+	width: 768px;
+	height: auto;
+	position: relative;
+}
+
+#messagesent
+{
+	width: 728px;
+	min-height: 460px;
+	padding: 20px;
+	background: lightgray;
+	opacity: 0.80;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#imagesent
+{
+	width: 728px;
+	height: 460px;
+	z-index: 5;
+	position: absolute;
+	left: 23%;
+	top: 15%;
+
+}
+.envelope
+{
+	max-width: 400px;
+	height: auto;
+
+}
+
+#messagesent p
+{
+	color: #19909D;
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#enviar
+{
+	background: lightgray;
+	display: block;
+	width: 100px;
+	height: 50px;
+	color: black;
+	font-weight: bold;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+
+}
+
+#enviar:hover
+{
+	background: rgba(0,0,0,0.5);
+	color: lightgray;
+	font-weight: bold;
+}/*FINAL AREA CONTATO*/
+
+}/*FINAL RESPONSIVO 768PX*/
+
+/* MEDIUM Devices (Tablets) */
+
+
+/* LARGE Devices (Desktops) */
+@media only screen and (min-width : 992px) 
+{
+}
+
+
+/* EXTRA Large Devices (LARGE DESKTOPS) */
+@media only screen and (min-width : 1200px) 
+{
+	/*INICIO PRINCIPAL*/
+#principal
+{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}/*FINAL PRINCIPAL*/
+
+#topobody
+{
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.6);
+}
+
+
+/*INICIO TOPO SUPORTE*/
+#toposuperior
+{
+    width: 1200px;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	display: table;
+	margin: 0 auto;
+}
+
+#slogan
+{
+	width: 590px;
+	height: 30px;
+	display: table-cell;
+	vertical-align: bottom;
+	padding: 5px 10px;
+}
+
+#suporte
+{
+	width: 590px;
+	height: 30px;
+	display: table-cell;
+	text-align: right;
+	vertical-align: bottom;
+	padding: 5px 10px;
+}/*FINAL SUPORTE*/
+
+
+/*INICIO LOGO, MENU*/
+#topoinferior
+{
+	width: 1200px;
+	height: 100px;
+	display: table;
+}
+
+#logo
+{
+	width: 300px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 40px;
+    font-family: 'Bungee', cursive;
+	font-weight: bold;
+	color: lightgray;
+}
+
+#logo span
+{
+	color:#19909D;
+}
+
+#logo span:hover
+{
+	color: lightgray;
+}
+
+a.linklogo:link, a.linklogo:visited
+{ 
+	text-decoration: none;
+	color: lightgray;
+}
+
+a.linklogo:hover, a.linklogo:active
+{
+	color: #19909D;
+}
+
+#menu
+{
+	width: 900px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#itensmenu
+{
+	margin: 0;
+	padding: 0;
+	float: right;
+
+}
+
+#itensmenu li
+{
+	list-style: none;
+	font-size: 26px;
+	display: table-cell;
+}
+
+a.linkmenu:link, a.linkmenu:visited
+{
+	text-decoration: none;
+	color: white;
+	margin-left: 50px;
+
+}
+
+a.linkmenu:hover, a.linkmenu:active
+{
+	color: #19909D;
+	font-weight: bold;
+
+}/*FINAL LOGO, MENU*/
+
+
+/*COMEÇO CONTEUDO*/
+#conteudo
+{
+	width: 1200px;
+	min-height: auto;
+	display: table;
+}
+
+#banners
+{
+	width: 1200px;
+	min-height: auto;
+	display: table-cell;
+	/*background: lightgray;*/
+}/*FINAL CONTEUDO*/
+
+#banners img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*CONTEUDO SOBRE*/
+#contentabout
+{
+	width: 1200px;
+	min-height: 300px;
+}
+
+#about
+{
+	width: 1000px;
+	min-height: 260px;
+	background: lightgray;
+	opacity: 0.85;
+	color: black;
+	font-size: 20px;
+	padding: 20px 100px;
+	margin-bottom: 20px;
+}
+
+#about p
+{
+	text-align: justify;
+}
+
+#about h1
+{
+	text-align: center;
+	color: #19909D;
+	font-weight: bold;
+}/*FINAL SOBRE*/
+
+
+/*INICIO SERVIÇOS*/
+#servicos
+{
+	width: 1200px;
+	min-height: 350px;
+	display: table;
+	margin: 20px 0;
+}
+
+#servicos h5
+{
+	font-size: 20px;
+}
+
+a.titleserv:link, a.titleserv:visited
+{
+	text-decoration: none;
+	color: black;
+
+}
+
+.itensservicos:hover h5
+{
+	color: #19909D;
+}
+
+
+.itensservicos:hover
+{
+	background: black;
+	border: white 1px solid;
+	opacity: 0.85;
+	color: white;
+}
+
+.itensservicos
+{
+	width: 258px;
+	min-height: 348px;
+	padding: 0 20px;
+	background: lightgray;
+	display: table-cell;
+	vertical-align: text-top;
+	border: black 1px solid;
+	opacity: 0.85;
+	font-size: 20px;
+	margin-bottom: none;
+}/*FINAL SERVIÇOS*/
+
+
+/*INICIO CONTEUDO SERVIÇOS*/
+#servicescontent
+{
+	width: 1200px;
+	height: auto;
+	margin-top: 5px;
+}
+
+#servicescontent h1
+{
+	color: white;
+	font-weight: bold;
+	font-size: 32px;
+
+}
+
+#servicescontent h2
+{
+	color: #19909D;
+	font-weight: bold;
+	text-align: center;
+}
+
+.services
+{
+	width: 1000px;
+	min-height: 260px;
+	padding: 20px 100px;
+	color: black;
+	font-size: 20px;
+	background: lightgray;
+	opacity: 0.85;
+	margin-bottom: 20px;
+}
+
+.services p
+{
+	text-align: justify;
+}/*FINAL CONTEUDO SERVIÇOS*/
+
+
+/*INICIO RODAPE SUPERIOR*/
+
+#rodapeumbody
+{
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.6);
+	font-size: 20px;
+}
+#rodapesuperior
+{
+	width: 1200px;
+	min-height: 250px;
+	color: white;
+	display: table;
+	margin: 0 auto;
+}
+
+#localizacao
+{
+	width: 400px;
+	min-height: 240px;
+	padding-bottom: 10px;
+	display: table-cell;
+	font-size: none;
+}
+
+.mapa
+{
+	width: 200px;
+	height: auto;
+}
+
+#contato
+{
+	width: 400px;
+	min-height: 240px;
+	padding-bottom: 10px;
+	display: table-cell;
+}
+
+#social
+{
+	width: 400px;
+	min-height: 240px;
+	padding-bottom: 10px;
+	display: table-cell;
+}
+
+#redessociais
+{
+	margin: 0;
+	padding: 0;
+}
+
+#redessociais li
+{
+	list-style: none;
+
+}/*FINAL RODAPE SUPERIOR*/
+
+
+/*INICIO RODAPE INFERIOR COPYRIGHT*/
+#rodapeinferior
+{
+	width: 100%;
+	min-height: 20px;
+	display: table;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 20px;
+}
+
+#direitos
+{
+	width: 1200px;
+	min-height: 20px;
+	display: table-cell;
+	text-align: center;
+	margin: 0 auto;
+}/*FINAL RODAPE INFERIOR COPYRIGHT*/
+
+
+/*Área CONTATO*/
+#areacontato
+{
+	width: 98%;
+	height: auto;
+	padding: 1%;
+	color: white;
+}
+
+#mapa
+{
+	width: 45%;
+	min-height: 600px;
+	float: left;
+}
+
+.mapadois
+{
+	width: 100%;
+	height: 400px;
+}
+
+#formulario
+{
+	width: 45%;
+	min-height: 600px;
+	float: right;
+}
+
+#dadosmensagem
+{
+	display: block;
+	margin: 0;
+	border-radius: 5px;	
+}
+
+#dadospessoais
+{
+	margin: 0;
+ 
+}
+
+#dadosmensagem label
+{
+	float: left;
+	width: 100px;
+	height: 20px;			
+}
+
+.campo
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 300px;
+	height: 20px;
+    background-color:rgba(0,0,0,0.5);
+	border-radius: 5px;
+	border: rgba(0,0,0,0.00);
+	color: white;
+	margin-top: 5px;	
+}
+
+.mensagem
+{
+	width: 300px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 5px;
+	border: rgba(0,0,0,0.00);
+	color: white;
+	margin-top: 5px;
+	resize: none;	
+}
+
+#message
+{
+	width: 1200px;
+	height: auto;
+	position: relative;
+}
+
+#messagesent
+{
+	width: 1160px;
+	min-height: 500px;
+	padding: 20px;
+	background: lightgray;
+	opacity: 0.80;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#imagesent
+{
+	width: 1160px;
+	height: 500px;
+	z-index: 5;
+	position: absolute;
+	left: 31%;
+	top: 15%;
+
+}
+.envelope
+{
+	max-width: 450px;
+	height: auto;
+
+}
+
+#messagesent p
+{
+	color: #19909D;
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#enviar
+{
+	background: lightgray;
+	display: block;
+	width: 100px;
+	height: 50px;
+	color: black;
+	font-weight: bold;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-bottom: none;
+}
+
+#enviar:hover
+{
+	background: rgba(0,0,0,0.5);
+	color: lightgray;
+	font-weight: bold;
+}/*FINAL AREA CONTATO*/
+
+}/*FINAL RESPONSIVO PARA 1200PX*/
+
+
+body
+{
+    margin: 0 auto;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	background: rgba(0,0,0,0.6);
+	background-image: url(imagens/imagemfundo.jpg);
+	background-repeat: no-repeat;
+	background-position: center top; 
+	background-attachment: fixed; 
+	background-size: cover;
+	background-blend-mode: overlay;
+	overflow: auto;
+}
+
+
+/*COMEÇO CLASSES*/
+.colorcyan
+{
+	color: #19909D;
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+.textright
+{
+	text-align: right;
+}
+
+.textcenter
+{
+	text-align: center;
+}
+
+.imgheight
+{
+	max-height: 40px;
+}/*FINAL CLASSES*/
